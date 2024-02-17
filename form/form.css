@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/0*wPN40eNkhZgT7NHP");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: left;
+  }
+  
+  #background {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(7, 5, 21, 80%);
+  }
+  
+  #parent__container {
+    position: absolute;
+    width: 40vw;
+    min-width: 500px;
+    height: 1350px;
+    margin: 0;
+    padding: 0;
+    left: 50vw;
+    top: 20vh;
+    transform: translate(-50%, 0);
+    background-color: rgba(7, 5, 21, 80%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border-radius: 10px;
+  }
+  
+  #title {
+    position: relative;
+    margin-top: 3vh;
+    margin-left: 50vw;
+    transform: translate(-50%, 0);
+    color: white;
+    width: 50vw;
+    min-width: 400px;
+    text-align: center;
+  }
+  
+  #description {
+    position: relative;
+    color: white;
+    font-style: italic;
+    margin-top: 1vh;
+    margin-left: 50vw;
+    transform: translate(-50%, 0);
+    width: 50vw;
+    min-width: 400px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #name-label, #email-label, #number-label {
+    width: 100%;
+    padding: 40px 0 0 40px;
+  }
+  
+  #name, #email, #number, #dropdown {
+    width: 100%;
+    height: 35px;
+    padding: 4px;
+    margin: 5px 40px 5px 40px;
+  }
+  
+  form span {
+    font-size: 0.8rem;
+    color: gray;
+  }
+  
+  .label {
+    width: 100%;
+    padding: 40px 0 0 40px;
+  }
+  
+  .radio {
+    width: 100%;
+    padding: 5px 0 5px 40px;
+  }
+  
+  form textarea {
+    width: 100%;
+    margin: 5px 40px 5px 40px;
+  }
+  
+  #submit {
+    width: 100%;
+    margin: 5px 40px 5px 40px;
+    height: 35px;
+    color: white;
+    background-color: green;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 2px;
+  }
+  
+  #submit:hover {
+    cursor: pointer;
+  }
